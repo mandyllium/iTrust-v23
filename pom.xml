@@ -196,11 +196,6 @@
           <execution>
             <phase>process-resources</phase>
             <configuration>
-               <tasks>
-                 <echo file="/var/lib/jenkins/workspace/iTrust/iTrust-v23/check.txt"
-                   append="false" > Build Completed!!
-				   </echo>
-              </tasks>
             </configuration>
             <goals>
               <goal>run</goal>
