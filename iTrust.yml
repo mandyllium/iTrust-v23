@@ -1,5 +1,6 @@
 ---
 - hosts: iTrust
+  serial: 1
 
   vars:
     packages:
@@ -101,4 +102,3 @@
       register: tomcat
 
     - debug: var=tomcat.stdout_lines
-
