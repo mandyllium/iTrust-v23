@@ -1,21 +1,19 @@
-[proxy]
-proxy ansible_ssh_host=52.40.182.156 ansible_ssh_user=ubuntu ansible_ssh_private_key_file=devopsm3.pem
+jenkins ansible_ssh_host=35.160.223.147 ansible_ssh_user=ubuntu ansible_ssh_private_key_file=devopsm3.pem
+
+proxy ansible_ssh_host=52.24.252.57 ansible_ssh_user=ubuntu ansible_ssh_private_key_file=devopsm3.pem
+
+redis ansible_ssh_host=35.162.86.135 ansible_ssh_user=ubuntu ansible_ssh_private_key_file=devopsm3.pem
+
+canary ansible_ssh_host=52.88.147.118 ansible_ssh_user=ubuntu ansible_ssh_private_key_file=devopsm3.pem
 
 [iTrust]
-itnode1 ansible_ssh_host=152.1.13.247 ansible_ssh_user=dnair ansible_ssh_private_key_file=/var/lib/jenkins/.ssh/id_rsa
-itnode2 ansible_ssh_host=152.7.99.185 ansible_ssh_user=dnair ansible_ssh_private_key_file=/var/lib/jenkins/.ssh/id_rsa
-
-[Checkbox]
-node0 ansible_ssh_host=34.209.201.231 ansible_ssh_user=ubuntu ansible_ssh_private_key_file=devopsm3.pem
-node1 ansible_ssh_host=34.209.32.244 ansible_ssh_user=ubuntu ansible_ssh_private_key_file=devopsm3.pem
-node2 ansible_ssh_host=52.41.64.213 ansible_ssh_user=ubuntu ansible_ssh_private_key_file=devopsm3.pem
-
-[canary]
-node0 ansible_ssh_host=34.209.201.231 ansible_ssh_user=ubuntu ansible_ssh_private_key_file=devopsm3.pem
-node1 ansible_ssh_host=34.209.32.244 ansible_ssh_user=ubuntu ansible_ssh_private_key_file=devopsm3.pem
-node2 ansible_ssh_host=52.41.64.213 ansible_ssh_user=ubuntu ansible_ssh_private_key_file=devopsm3.pem
-
+itnode1 ansible_ssh_host=34.203.234.195 ansible_ssh_user=ubuntu ansible_ssh_private_key_file=/home/ubuntu/deepak.pem
+itnode2 ansible_ssh_host=54.227.190.151 ansible_ssh_user=ubuntu ansible_ssh_private_key_file=/home/ubuntu/deepak.pem
+itnode3 ansible_ssh_host=52.73.25.90 ansible_ssh_user=ubuntu ansible_ssh_private_key_file=/home/ubuntu/deepak.pem
+itnode4 ansible_ssh_host=184.72.212.170 ansible_ssh_user=ubuntu ansible_ssh_private_key_file=/home/ubuntu/deepak.pem
+itnode5 ansible_ssh_host=52.91.140.247 ansible_ssh_user=ubuntu ansible_ssh_private_key_file=/home/ubuntu/deepak.pem
 
 [production]
-node0 ansible_ssh_host=34.209.10.68 ansible_ssh_user=ubuntu ansible_ssh_private_key_file=devopsm3.pem
+node0 ansible_ssh_host=34.209.84.252 ansible_ssh_user=ubuntu ansible_ssh_private_key_file=devopsm3.pem
+node1 ansible_ssh_host=52.26.143.141 ansible_ssh_user=ubuntu ansible_ssh_private_key_file=devopsm3.pem
 
