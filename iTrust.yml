@@ -38,7 +38,7 @@
       become_method: sudo
 
     - name: Install Tomcat 9
-      shell: cd /opt; wget http://www-us.apache.org/dist/tomcat/tomcat-9/v9.0.0.M19/bin/apache-tomcat-9.0.0.M19.tar.gz; tar xzf apache-tomcat-9.0.0.M19.tar.gz; mv apache-tomcat-9.0.0.M19 tomcat9
+      shell: cd /opt; wget http://www-us.apache.org/dist/tomcat/tomcat-9/v9.0.0.M20/bin/apache-tomcat-9.0.0.M20.tar.gz; tar xzf apache-tomcat-9.0.0.M20.tar.gz; mv apache-tomcat-9.0.0.M20 tomcat9
       become: yes
       become_method: sudo
       args:
