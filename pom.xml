@@ -77,32 +77,6 @@
       	<groupId>org.codehaus.mojo</groupId>
     	<artifactId>exec-maven-plugin</artifactId>
     	<version>1.4.0</version>
-    	<executions>
-    		<execution>
-    			<id>BuildDB</id>
-    			<phase>process-test-classes</phase>
-    			<goals>
-    				<goal>java</goal>
-    			</goals>
-    			<configuration>
-    				<classpathScope>test</classpathScope>
-    				<mainClass>edu.ncsu.csc.itrust.unit.DBBuilder</mainClass>
-       				<cleanupDaemonThreads>false</cleanupDaemonThreads>
-    			</configuration>
-    		</execution>
-    		<execution>
-    			<id>GenerateTestData</id>
-    			<phase>process-test-classes</phase>
-    			<goals>
-    				<goal>java</goal>
-    			</goals>
-    			<configuration>
-    				<classpathScope>test</classpathScope>
-    				<mainClass>edu.ncsu.csc.itrust.unit.datagenerators.TestDataGenerator</mainClass>
-    				<cleanupDaemonThreads>false</cleanupDaemonThreads>
-    			</configuration>
-    		</execution>
-    	</executions>
       </plugin>
       <plugin>
         <groupId>org.apache.tomcat.maven</groupId>
