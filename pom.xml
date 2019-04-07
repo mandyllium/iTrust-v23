@@ -1,3 +1,24 @@
+Skip to content
+ 
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@mandyllium 
+0
+0 3 mandyllium/iTrust-v23
+forked from deepakiam/iTrust-v23
+ Code  Pull requests 0  Projects 0  Wiki  Insights  Settings
+iTrust-v23
+/
+pom.xml
+@deepakiam deepakiam removing configuration
+7dea87c on Apr 12, 2017
+541 lines (539 sloc)  15.2 KB
+    
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>iTrust</groupId>
@@ -77,6 +98,34 @@
       	<groupId>org.codehaus.mojo</groupId>
     	<artifactId>exec-maven-plugin</artifactId>
     	<version>1.4.0</version>
+		<!--
+    	<executions>
+    		<execution>
+    			<id>BuildDB</id>
+    			<phase>process-test-classes</phase>
+    			<goals>
+    				<goal>java</goal>
+    			</goals>
+    			<configuration>
+    				<classpathScope>test</classpathScope>
+    				<mainClass>edu.ncsu.csc.itrust.unit.DBBuilder</mainClass>
+       				<cleanupDaemonThreads>false</cleanupDaemonThreads>
+    			</configuration>
+    		</execution>
+    		<execution>
+    			<id>GenerateTestData</id>
+    			<phase>process-test-classes</phase>
+    			<goals>
+    				<goal>java</goal>
+    			</goals>
+    			<configuration>
+    				<classpathScope>test</classpathScope>
+    				<mainClass>edu.ncsu.csc.itrust.unit.datagenerators.TestDataGenerator</mainClass>
+    				<cleanupDaemonThreads>false</cleanupDaemonThreads>
+    			</configuration>
+    		</execution>
+    	</executions>
+		-->
       </plugin>
       <plugin>
         <groupId>org.apache.tomcat.maven</groupId>
@@ -512,3 +561,15 @@
   	<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
   </properties>
 </project>
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
