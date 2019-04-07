@@ -77,7 +77,7 @@
       	<groupId>org.codehaus.mojo</groupId>
     	<artifactId>exec-maven-plugin</artifactId>
     	<version>1.4.0</version>
-    	<executions>
+    	<!--<executions>
     		<execution>
     			<id>BuildDB</id>
     			<phase>process-test-classes</phase>
@@ -102,7 +102,7 @@
     				<cleanupDaemonThreads>false</cleanupDaemonThreads>
     			</configuration>
     		</execution>
-    	</executions>
+    	</executions> -->
       </plugin>
       <plugin>
         <groupId>org.apache.tomcat.maven</groupId>
