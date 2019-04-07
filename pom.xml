@@ -77,7 +77,6 @@
       	<groupId>org.codehaus.mojo</groupId>
     	<artifactId>exec-maven-plugin</artifactId>
     	<version>1.4.0</version>
-		<!--
     	<executions>
     		<execution>
     			<id>BuildDB</id>
@@ -104,7 +103,6 @@
     			</configuration>
     		</execution>
     	</executions>
-		-->
       </plugin>
       <plugin>
         <groupId>org.apache.tomcat.maven</groupId>
@@ -540,15 +538,3 @@
   	<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
   </properties>
 </project>
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
